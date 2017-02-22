@@ -1,7 +1,7 @@
 # InetSysDev-GH-Community-Health
 Measures the health of a GitHub open source community using a variety of factors.
- - generic description
- -links
+ * generic description
+ * links
 
 # Building GHCommunityHealth (GHData)
 - build info
