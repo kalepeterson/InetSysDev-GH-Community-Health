@@ -45,9 +45,7 @@ Here is a list of metrics that we are considering adding to GHData:
             "value": 37
 
         },
-        .
-        .
-        .
+        ...
     ]
 }`
 
