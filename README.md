@@ -8,13 +8,12 @@ This repository is a staging ground for
 code that could be added to GHData's codebase.  Code that is being submitted to GHData will be merged
 into our [fork](https://github.com/kalepeterson/ghdata) before being included in a pull request to
 OSSHealth's GHData.
- * links
 
 # Building GHCommunityHealth (GHData)
-- build info
+* build info
 
 # Testing GHCommunityHealth
-- test info
+* test info
 
 # Contributions
 We are currently not accepting contributions.  This file will be updated if that changes in the future.
@@ -26,4 +25,4 @@ All documentation is copyrighted under the Creative Commons Attribution 4.0 Inte
 See the DOCUMENT_LICENSE file.
 
 # Example Use Cases
-- use cases, code snippets
+* use cases, code snippets
