@@ -20,9 +20,9 @@ We are currently not accepting contributions.  This file will be updated if that
 
 # Licensing Information
 This project is licensed under the MIT License.
-See the LICENSE file.
+See the [LICENSE](LICENSE) file.
 All documentation is copyrighted under the Creative Commons Attribution 4.0 International Public License.
-See the DOCUMENT_LICENSE file.
+See the [DOCUMENT_LICENSE](DOCUMENT_LICENSE) file.
 
 # Example Use Cases
 * use cases, code snippets
