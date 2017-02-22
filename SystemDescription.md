@@ -31,19 +31,12 @@ Here is a list of metrics that we are considering adding to GHData:
             
 # Timeline Module JSON Mockup
 `{
-
     "latestDate": "timestamp",
-
     "metric": "pull requests",
-
     "valueMap": [
-    
         {
-
             "timestamp": "timestamp",
-
             "value": 37
-
         },
         ...
     ]
