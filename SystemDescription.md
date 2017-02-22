@@ -10,4 +10,46 @@ Although such a method will probably not be completely accurate, an estimate wou
 If a solution is identified, then it will also be integrated into the GHData class as part of the other enhancements.
 It would then be possible to send the maintainer data to the new timeline module, which would show the change in maintainers over time.
 
+# Metrics
+Here is a list of metrics that we are considering adding to GHData:
+* Pull Requests
+    * Time to Close (closed_at - created_at)
+        * Average for repository
+    * Percentage merged
+* Issues
+    * Amount created between releases
+        * Immediately after release (bugs)
+    * Comments
+        * Timeliness
+        * Average amount per issue
+* Release rate
+* Aggregate Metrics
+    * Issues to Pull Requests ratio
+        * Issues / Pull Requests
+            * High: lots of discussion, not much merging
+* Identifying maintainers
+            
+# Timeline Module JSON Mockup
+`{
+
+    "latestDate": "timestamp",
+
+    "metric": "pull requests",
+
+    "valueMap": [
+    
+        {
+
+            "timestamp": "timestamp",
+
+            "value": 37
+
+        },
+        .
+        .
+        .
+    ]
+}`
+
+# Data Flow Diagram
 ![Data Flow Diagram](Data%20Flow%20Diagram.jpg "Data Flow Diagram")
