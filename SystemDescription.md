@@ -6,7 +6,7 @@ For example, one such use of the new module would be to obtain an object that co
 This could be useful information for displaying how a repository has adapted over time.
 
 In addition to extending the functionality of GHData, the project will also include a research portion involving possible methods of identifying maintainers of a repository using GHTorrent data.
-Although such a method will probably not be completely accurate, an estimate would still be valuable information for users of GHData.
+Although such a method may not be completely accurate, an estimate would still be valuable information for users of GHData.
 If a solution is identified, then it will also be integrated into the GHData class as part of the other enhancements.
 It would then be possible to send the maintainer data to the new timeline module, which would show the change in maintainers over time.
 
@@ -27,6 +27,7 @@ Here is a list of metrics that we are considering adding to GHData:
     * Issues to Pull Requests ratio
         * Issues / Pull Requests
             * High: lots of discussion, not much merging
+    * Open Issues to Contributors/Active Contributors
 * Identifying maintainers
             
 # Timeline Module JSON Mockup
