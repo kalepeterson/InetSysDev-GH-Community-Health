@@ -11,6 +11,8 @@ If a solution is identified, then it will also be integrated into the GHData cla
 It would then be possible to send the maintainer data to the new timeline module, which would show the change in maintainers over time.
 
 # Metrics
+* **How does ghdata do this? What does their JSON look like?**
+
 Here is a list of metrics that we are considering adding to GHData:
 * Pull Requests
     * Time to Close (closed_at - created_at)

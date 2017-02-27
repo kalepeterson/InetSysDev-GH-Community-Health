@@ -11,6 +11,7 @@ OSSHealth's GHData.
 
 # Building GHCommunityHealth (GHData)
 * build info
+* Operating system / Python requirements
 
 # Testing GHCommunityHealth
 * test info
