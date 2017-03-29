@@ -9,9 +9,21 @@ code that could be added to GHData's codebase.  Code that is being submitted to 
 into our [fork](https://github.com/kalepeterson/ghdata) before being included in a pull request to
 OSSHealth's GHData.
 
-# Building GHCommunityHealth (GHData)
-* build info
-* Operating system / Python requirements
+# Development Environment
+This project will be developed in Python using the JetBrains PyCharm IDE.
+
+## Versions Used
+PyCharm 2017.1 
+Build #PY-171.3780.115, built on March 24, 2017 
+JRE: 1.8.0_112-release-736-b13 x86 
+JVM: OpenJDK Server VM by JetBrains s.r.o 
+Windows 10 10.0
+
+PyCharm 2016.3 
+Build #PY-171.3651.112, built on December 28, 2016 
+JRE: 1.8.0_112-release-736-b13 x86 
+JVM: OpenJDK Server VM by JetBrains s.r.o 
+Windows 10 10.0
 
 # Testing GHCommunityHealth
 * test info
