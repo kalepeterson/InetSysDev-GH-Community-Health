@@ -32,18 +32,6 @@ Here is a list of metrics that we are considering adding to GHData:
     * Open Issues to Contributors/Active Contributors
 * Identifying maintainers
             
-# Timeline Module JSON Mockup
-`{
-    "latestDate": "timestamp",
-    "metric": "pull requests",
-    "valueMap": [
-        {
-            "timestamp": "timestamp",
-            "value": 37
-        },
-        ...
-    ]
-}`
 
 # Data Flow Diagram
 ![Data Flow Diagram](Data%20Flow%20Diagram.jpg "Data Flow Diagram")
