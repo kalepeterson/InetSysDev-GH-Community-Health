@@ -53,5 +53,10 @@ See the [LICENSE](LICENSE) file.
 All documentation is copyrighted under the Creative Commons Attribution 4.0 International Public License.
 See the [DOCUMENT_LICENSE](DOCUMENT_LICENSE) file.
 
+# Database Schema
+This project will not be using a schema that is distinct from GHData.
+We will be utilizing the infrastructure that GHData currently has in place.
+GHData uses the GHTorrent database, the schema of which can be found [here](http://ghtorrent.org/files/schema.png).
+
 # Example Use Cases
 * use cases, code snippets
