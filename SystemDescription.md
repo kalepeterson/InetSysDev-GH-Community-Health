@@ -33,4 +33,4 @@ Here is a list of metrics that we are considering adding to GHData:
             
 
 # Data Flow Diagram
-![Data Flow Diagram](Data%20Flow%20Diagram.jpg "Data Flow Diagram")
+![Data Flow Diagram](Data%20Flow%20Diagram%20Revised.png "Data Flow Diagram")
