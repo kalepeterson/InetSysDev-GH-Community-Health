@@ -31,36 +31,36 @@ The resulting JSON objects are simply translated from the data table brought bac
 The table's columns are the keys and the rows populate the values.
 Here is an example of the JSON returned by GHData showing the number of forks created by year off of the doom3.gpl repository:
 
-`[`
+`[
 
-    `{`
+    {
 
-        `"date" : "2011-11-22T00:00:00.000Z",`
+        "date" : "2011-11-22T00:00:00.000Z",
   
-        `"projects" : 266`
+        "projects" : 266
   
-    `},`
+    },
   
-    `{`
+    {
   
-        `"date" : "2012-01-02T00:00:00.000Z",`
+        "date" : "2012-01-02T00:00:00.000Z",
   
-        `"projects" : 169`
+        "projects" : 169
   
-    `},`
+    },
   
-    `{`
+    {
   
-        `"date" : "2013-01-03T00:00:00.000Z",`
+        "date" : "2013-01-03T00:00:00.000Z",
   
-        `"projects" : 178`
+        "projects" : 178
   
-    `}`
+    }
 
-`]`
+]`
 
 Once an instance of our fork of ghdata is running, this data can be retrieved by visiting the following URL in a browser:
-![http://127.0.0.1:5000/unstable/TTimo/doom3.gpl/timeseries/forks/year](http://127.0.0.1:5000/unstable/TTimo/doom3.gpl/timeseries/forks/year "http://127.0.0.1:5000/unstable/TTimo/doom3.gpl/timeseries/forks/year")
+[http://127.0.0.1:5000/unstable/TTimo/doom3.gpl/timeseries/forks/year](http://127.0.0.1:5000/unstable/TTimo/doom3.gpl/timeseries/forks/year)
 
 # Implemented Metrics
  * Stargazers (actually watchers) grouped by day, week, month, and year
@@ -68,11 +68,13 @@ Once an instance of our fork of ghdata is running, this data can be retrieved by
  * Pull Requests grouped by day, week, month, and year
     * Shows activity on a project over time.
  * Forks
-     * All forks of a certain repository
+   * All forks of a certain repository
         * Mainly useful for future user interface work (e.g. traversing between forks, getting metrics for forks as well)
    * Grouped by day, week, month, and year
         * Useful for measuring interest or new development on a project.
  * Issue Actions
+    * Mostly useful for developing more complex metrics, but also provides a look at what actions are common, such as
+    mentions, reopenings, and more.
  
 # Proposed Metrics
 Here is a list of metrics that we are considering adding to GHData:
