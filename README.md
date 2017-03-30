@@ -93,7 +93,29 @@ We will be utilizing the infrastructure that GHData currently has in place.
 GHData uses the GHTorrent database, the schema of which can be found [here](http://ghtorrent.org/files/schema.png).
 
 # Example Use Cases
-* use cases, code snippets
+**Title:** Determine the Health and Sustainability of an Open Source Repository
+
+**Primary Actor:** Corporate Manager
+
+**Goal in Context:** The corporate manager is able to determine the health of the open source project which allows them to make more informed decisions about the project
+
+**Stakeholders:**
+
+Corporate Manager: To receive clear and relevant project health information
+
+Corporate Developer: To provide the relevant development metrics to increase productivity
+
+Project Owner: To clearly understand the overall health and sustainability of the project as a whole. 
+
+**Preconditions:**
+Relevant project/repository information is in the database.
+Proper project information has been provided
+
+**Main Success Scenario:** Corporate manager receives accurate useful health metrics that allow for better decision making.
+
+**Failed End Conditions:** Corporate manager receives misleading or inaccurate metrics which do no provide value in understanding the health of the repository
+
+**Trigger:** Corporate manager interacts with a frontend that retrieves and formats the data from the API.
 
 # Contributions
 We are currently not accepting contributions.  This file will be updated if that changes in the future.
