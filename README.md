@@ -53,6 +53,34 @@ To run tests for the project in PyCharm you will need to Edit the Configuration 
 
 6. Select and run the new configuration.
 
+## Testing the new REST endpoints
+
+Several new endpoints have been added.
+For testing, simply visit the list of URLs below to view the generated JSON output.
+These test URLs target the "shiny" repository by user "rstudio" since it returns data for every new endpoint.
+The target repository can be changed to any user/repository combination that is included in the MSR14 data set by simply 
+replacing "shiny" with the new repository name and "rstudio" with the new user login name.
+These can be accessed after successfully starting an instance of our forked ghdata project.
+
+* Forks
+    * All: [http://127.0.0.1:5000/unstable/rstudio/shiny/forks](http://127.0.0.1:5000/unstable/rstudio/shiny/forks)
+    * Year: [http://127.0.0.1:5000/unstable/rstudio/shiny/timeseries/forks/year](http://127.0.0.1:5000/unstable/rstudio/shiny/timeseries/forks/year)
+    * Month: [http://127.0.0.1:5000/unstable/rstudio/shiny/timeseries/forks/month](http://127.0.0.1:5000/unstable/rstudio/shiny/timeseries/forks/month)
+    * Week: [http://127.0.0.1:5000/unstable/rstudio/shiny/timeseries/forks/week](http://127.0.0.1:5000/unstable/rstudio/shiny/timeseries/forks/week)
+    * Day: [http://127.0.0.1:5000/unstable/rstudio/shiny/timeseries/forks/day](http://127.0.0.1:5000/unstable/rstudio/shiny/timeseries/forks/day)
+* Issue actions
+    * All: [http://127.0.0.1:5000/unstable/rstudio/shiny/issue_actions](http://127.0.0.1:5000/unstable/rstudio/shiny/issue_actions)
+* Stargazers (actually watchers)
+    * Year: [http://127.0.0.1:5000/unstable/rstudio/shiny/timeseries/stargazers/year](http://127.0.0.1:5000/unstable/rstudio/shiny/timeseries/stargazers/year)
+    * Month: [http://127.0.0.1:5000/unstable/rstudio/shiny/timeseries/stargazers/month](http://127.0.0.1:5000/unstable/rstudio/shiny/timeseries/stargazers/month)
+    * Week: [http://127.0.0.1:5000/unstable/rstudio/shiny/timeseries/stargazers/week](http://127.0.0.1:5000/unstable/rstudio/shiny/timeseries/stargazers/week)
+    * Day: [http://127.0.0.1:5000/unstable/rstudio/shiny/timeseries/stargazers/day](http://127.0.0.1:5000/unstable/rstudio/shiny/timeseries/stargazers/day)
+* Pull Requests
+    * Year: [http://127.0.0.1:5000/unstable/rstudio/shiny/timeseries/pulls/year](http://127.0.0.1:5000/unstable/rstudio/shiny/timeseries/pulls/year)
+    * Month: [http://127.0.0.1:5000/unstable/rstudio/shiny/timeseries/pulls/month](http://127.0.0.1:5000/unstable/rstudio/shiny/timeseries/pulls/month)
+    * Week: [http://127.0.0.1:5000/unstable/rstudio/shiny/timeseries/pulls/week](http://127.0.0.1:5000/unstable/rstudio/shiny/timeseries/pulls/week)
+    * Day: [http://127.0.0.1:5000/unstable/rstudio/shiny/timeseries/pulls/day](http://127.0.0.1:5000/unstable/rstudio/shiny/timeseries/pulls/day)
+
 
 # Contributions
 We are currently not accepting contributions.  This file will be updated if that changes in the future.
