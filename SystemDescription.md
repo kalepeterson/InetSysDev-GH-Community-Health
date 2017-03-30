@@ -31,7 +31,8 @@ The resulting JSON objects are simply translated from the data table brought bac
 The table's columns are the keys and the rows populate the values.
 Here is an example of the JSON returned by GHData showing the number of forks created by year off of the doom3.gpl repository:
 
-`[
+`
+[
 
     {
 
@@ -57,7 +58,8 @@ Here is an example of the JSON returned by GHData showing the number of forks cr
   
     }
 
-]`
+]
+`
 
 Once an instance of our fork of ghdata is running, this data can be retrieved by visiting the following URL in a browser:
 [http://127.0.0.1:5000/unstable/TTimo/doom3.gpl/timeseries/forks/year](http://127.0.0.1:5000/unstable/TTimo/doom3.gpl/timeseries/forks/year)
