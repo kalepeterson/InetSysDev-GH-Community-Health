@@ -9,6 +9,16 @@ code that could be added to GHData's codebase.  Code that is being submitted to 
 into our [fork](https://github.com/kalepeterson/ghdata) before being included in a pull request to
 OSSHealth's GHData.
 
+# Dependencies
+* [Python](https://www.python.org/downloads/) 3.4.x
+* [MySQL](https://dev.mysql.com/downloads/) 5.x or later version (can be on a separate machine)
+* [GHTorrent](http://ghtorrent.org/) in database
+* [Pip](https://pip.pypa.io/en/stable/installing/)
+
+# Installation
+1. Download and import the GHTorrent MSR14 database. The link to download the dataset and installation instructions can be found [here](http://ghtorrent.org/msr14.html). The database import process can be done using MySQL workbench as well which is mentioned [here](https://github.com/OSSHealth/ghdata#step-3-optional-if-you-are-able-to-get-the-full-database---install-a-small-local-testing-database)
+2. 
+
 # Development Environment
 This project will be developed in Python using the JetBrains PyCharm IDE.
 
