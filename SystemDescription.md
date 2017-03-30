@@ -32,27 +32,16 @@ The table's columns are the keys and the rows populate the values.
 Here is an example of the JSON returned by GHData showing the number of forks created by year off of the doom3.gpl repository:
 
     [{
-
         "date" : "2011-11-22T00:00:00.000Z",
-  
         "projects" : 266
-  
     },
-  
     {
-  
         "date" : "2012-01-02T00:00:00.000Z",
-  
         "projects" : 169
-  
     },
-  
     {
-  
         "date" : "2013-01-03T00:00:00.000Z",
-  
-        "projects" : 178
-  
+        "projects" : 178  
     }]
 
 Once an instance of our fork of ghdata is running, this data can be retrieved by visiting the following URL in a browser:
