@@ -87,6 +87,13 @@ These can be accessed after successfully starting an instance of our forked ghda
     * Week: [http://127.0.0.1:5000/unstable/rstudio/shiny/timeseries/pulls/week](http://127.0.0.1:5000/unstable/rstudio/shiny/timeseries/pulls/week)
     * Day: [http://127.0.0.1:5000/unstable/rstudio/shiny/timeseries/pulls/day](http://127.0.0.1:5000/unstable/rstudio/shiny/timeseries/pulls/day)
 
+# Database Schema
+This project will not be using a schema that is distinct from GHData.
+We will be utilizing the infrastructure that GHData currently has in place.
+GHData uses the GHTorrent database, the schema of which can be found [here](http://ghtorrent.org/files/schema.png).
+
+# Example Use Cases
+* use cases, code snippets
 
 # Contributions
 We are currently not accepting contributions.  This file will be updated if that changes in the future.
@@ -97,10 +104,4 @@ See the [LICENSE](LICENSE) file.
 All documentation is copyrighted under the Creative Commons Attribution 4.0 International Public License.
 See the [DOCUMENT_LICENSE](DOCUMENT_LICENSE) file.
 
-# Database Schema
-This project will not be using a schema that is distinct from GHData.
-We will be utilizing the infrastructure that GHData currently has in place.
-GHData uses the GHTorrent database, the schema of which can be found [here](http://ghtorrent.org/files/schema.png).
 
-# Example Use Cases
-* use cases, code snippets
