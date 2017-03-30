@@ -10,7 +10,14 @@ If a solution is identified, then it will also be integrated into the GHData cla
 It would then be possible to send the maintainer data to the new timeline module, which would show the change in maintainers over time.
 
 # Implemented Metrics
-
+ * Stargazers
+   * Grouped By (Week, Month, Year)
+ * Pull Requests.
+   * Grouped By (Week, Month, Year)
+ * Forks
+   * Grouped By (Week, Month, Year)
+ * Issue Actions
+ 
 # Proposed Metrics
 Here is a list of metrics that we are considering adding to GHData:
 * Pull Requests
