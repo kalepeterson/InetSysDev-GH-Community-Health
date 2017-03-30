@@ -16,14 +16,14 @@ OSSHealth's GHData.
 * [Pip](https://pip.pypa.io/en/stable/installing/)
 
 # Installation
-1. Download and import the GHTorrent MSR14 database. The link to download the dataset and installation instructions can be found [here](http://ghtorrent.org/msr14.html). The database import process can be done using MySQL workbench as well which is mentioned [here](https://github.com/OSSHealth/ghdata#step-3-optional-if-you-are-able-to-get-the-full-database---install-a-small-local-testing-database)
-2. Execute the command `pip install --upgrade https://github.com/kalepeterson/ghdata/archive/alpha-v1.zip` from a command prompt or terminal to download and install our version of ghdata. If you are on a Mac or Linux machine you made need to execute `sudo pip install --upgrade https://github.com/kalepeterson/ghdata/archive/alpha-v1.zip` to install ghdata.
-3. Execute the command `ghdata` from your command prompt or terminal to generate the ghdata.Cfg configuration file.
-4. Open ghdata.Cfg in your text editor of choice and edit the configuration to match your local database settings.
+1. Download and import the GHTorrent MSR14 database. The link to download the dataset and installation instructions can be found [here](http://ghtorrent.org/msr14.html). The database import process can be done using MySQL workbench as well, which is mentioned [here](https://github.com/OSSHealth/ghdata#step-3-optional-if-you-are-able-to-get-the-full-database---install-a-small-local-testing-database)
+2. Execute the command `pip install --upgrade https://github.com/kalepeterson/ghdata/archive/alpha-v1.zip` from a command prompt or terminal to download and install our version of ghdata. If you are on a Mac or Linux machine you may need to execute `sudo pip install --upgrade https://github.com/kalepeterson/ghdata/archive/alpha-v1.zip` to install ghdata.
+3. Execute the command `ghdata` from your command prompt or terminal to generate the ghdata.cfg configuration file.
+4. Open ghdata.cfg in your text editor of choice and edit the configuration to match your local database settings.
 5. Execute the command `ghdata` once again to start the server.
 6. Open browser and navigate to the server's API endpoints.
 
-* Installation has been tested on Windows 10 PC's and has not been verified to work on MAC or Linux yet.
+* Installation has been tested on Windows 10 PC's and has not been verified to work on Mac or Linux yet.
 
 # Development Environment
 This project will be developed in Python using the JetBrains PyCharm IDE.
@@ -92,30 +92,33 @@ This project will not be using a schema that is distinct from GHData.
 We will be utilizing the infrastructure that GHData currently has in place.
 GHData uses the GHTorrent database, the schema of which can be found [here](http://ghtorrent.org/files/schema.png).
 
-# Example Use Cases
-**Title:** Determine the Health and Sustainability of an Open Source Repository
+# Primary Use Case
+Since this project primarily affects the REST API of ghdata, the primary use case is for other applications consuming the
+information that our enhancements provide.
 
-**Primary Actor:** Corporate Manager
+**Title**: Consume Health and Sustainability Metrics for an Open Source Repository
 
-**Goal in Context:** The corporate manager is able to determine the health of the open source project which allows them to make more informed decisions about the project
+**Primary Actor**: Consuming software application, either external or the ghdata user interface.
 
-**Stakeholders:**
+**Goal in Context**: The consuming application is able to retrieve a variety of useful metric data for a specified repository.
 
-Corporate Manager: To receive clear and relevant project health information
+**Stakeholders**:
 
-Corporate Developer: To provide the relevant development metrics to increase productivity
+    * Consuming application users: To receive useful and accurate metric information.
+    * Consuming application developers: To receive metric information for processing.
 
-Project Owner: To clearly understand the overall health and sustainability of the project as a whole. 
+**Preconditions**:
+    
+    * Instance of ghdata and current GHTorrent database are running on an accessible server.
+    * Consuming application developers understand the ghdata API and have developed an application to use the endpoints.
+    
+**Main Success Scenario**: The consuming application's users are presented with the desired metric information.
 
-**Preconditions:**
-Relevant project/repository information is in the database.
-Proper project information has been provided
+**Failed End Conditions**: The consuming application fails to process the information from ghdata or the information
+is outdated or inaccurate.
 
-**Main Success Scenario:** Corporate manager receives accurate useful health metrics that allow for better decision making.
+**Trigger**: Consuming application makes requests to the ghdata REST API endpoints.
 
-**Failed End Conditions:** Corporate manager receives misleading or inaccurate metrics which do no provide value in understanding the health of the repository
-
-**Trigger:** Corporate manager interacts with a frontend that retrieves and formats the data from the API.
 
 # Contributions
 We are currently not accepting contributions.  This file will be updated if that changes in the future.
