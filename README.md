@@ -17,7 +17,7 @@ OSSHealth's GHData.
 
 # Installation
 1. Download and import the GHTorrent MSR14 database. The link to download the dataset and installation instructions can be found [here](http://ghtorrent.org/msr14.html). The database import process can be done using MySQL workbench as well, which is mentioned [here](https://github.com/OSSHealth/ghdata#step-3-optional-if-you-are-able-to-get-the-full-database---install-a-small-local-testing-database)
-2. Execute the command `pip install --upgrade https://github.com/kalepeterson/ghdata/archive/alpha-v3.zip` from a command prompt or terminal to download and install our version of ghdata. If you are on a Mac or Linux machine you may need to execute `sudo pip install --upgrade https://github.com/kalepeterson/ghdata/archive/alpha-v3.zip` to install ghdata.
+2. Execute the command `pip install --upgrade https://github.com/kalepeterson/ghdata/archive/alpha-v6.zip` from a command prompt or terminal to download and install our version of ghdata. If you are on a Mac or Linux machine you may need to execute `sudo pip install --upgrade https://github.com/kalepeterson/ghdata/archive/alpha-v6.zip` to install ghdata.
 3. Execute the command `ghdata` from your command prompt or terminal to generate the ghdata.cfg configuration file.
 4. Open ghdata.cfg in your text editor of choice and edit the configuration to match your local database settings.
 5. Execute the command `ghdata` once again to start the server.
