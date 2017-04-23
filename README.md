@@ -86,6 +86,12 @@ These can be accessed after successfully starting an instance of our forked ghda
     * Month: [http://127.0.0.1:5000/unstable/rstudio/shiny/timeseries/pulls/month](http://127.0.0.1:5000/unstable/rstudio/shiny/timeseries/pulls/month)
     * Week: [http://127.0.0.1:5000/unstable/rstudio/shiny/timeseries/pulls/week](http://127.0.0.1:5000/unstable/rstudio/shiny/timeseries/pulls/week)
     * Day: [http://127.0.0.1:5000/unstable/rstudio/shiny/timeseries/pulls/day](http://127.0.0.1:5000/unstable/rstudio/shiny/timeseries/pulls/day)
+* Average Issue Response Time
+    * [http://127.0.0.1:5000/unstable/rstudio/shiny/issues/average_response](http://127.0.0.1:5000/unstable/rstudio/shiny/issues/average_response)
+* Relative Activity
+    * Ratio: [http://127.0.0.1:5000/unstable/rstudio/shiny/relative_activity](http://127.0.0.1:5000/unstable/rstudio/shiny/relative_activity)
+    * Project Members: [http://127.0.0.1:5000/unstable/rstudio/shiny/relative_activity_pm](http://127.0.0.1:5000/unstable/rstudio/shiny/relative_activity_pm)
+    * Non Project Members: [http://127.0.0.1:5000/unstable/rstudio/shiny/relative_activity_nonpm](http://127.0.0.1:5000/unstable/rstudio/shiny/relative_activity_nonpm)
 
 # Database Schema
 This project will not be using a schema that is distinct from GHData.
