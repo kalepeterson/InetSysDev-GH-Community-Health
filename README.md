@@ -21,7 +21,7 @@ OSSHealth's GHData.
 3. Execute the command `ghdata` from your command prompt or terminal to generate the ghdata.cfg configuration file.
 4. Open ghdata.cfg in your text editor of choice and edit the configuration to match your local database settings.
 5. Execute the command `ghdata` once again to start the server.
-6. Open browser and navigate to the server's API endpoints.
+6. Open browser and navigate to the server's API endpoints. (See the "Testing the New REST Endpoints" section below)
 
 * Installation has been tested on Windows 10 PC's and has not been verified to work on Mac or Linux yet.
 
